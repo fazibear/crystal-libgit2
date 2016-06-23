@@ -25,7 +25,7 @@ require "crystal-libgit2"
 
 
 
-Find as many people as possible to help implement all the funcions in libgit2.cr lol :)
+Find as many people as possible to help implement all the functions in libgit2.cr lol :)
 
 ## Development
 
