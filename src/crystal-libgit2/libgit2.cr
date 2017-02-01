@@ -20,7 +20,7 @@ lib LibGit2
   fun libgit2_version = git_libgit2_version(major : LibC::Int*, minor : LibC::Int*, rev : LibC::Int*)
   CapThreads = 1
   CapHttps = 2
-  fun libgit2_capabilities = git_libgit2_capabilities : LibC::Int
+  fun libgit2_fetaures = git_libgit2_fetures : LibC::Int
   OptGetMwindowSize = 0
   OptSetMwindowSize = 1
   OptGetMwindowMappedLimit = 2
@@ -32,8 +32,8 @@ lib LibGit2
   OptEnableCaching = 8
   OptGetCachedMemory = 9
   fun libgit2_opts = git_libgit2_opts(option : LibC::Int, ...) : LibC::Int
-  fun threads_init = git_threads_init : LibC::Int
-  fun threads_shutdown = git_threads_shutdown
+  fun libgit2_init = git_libgit2_init : LibC::Int
+  fun libgit2_shutdown = git_libgit2_shutdown : LibC::Int
   Ok = 0
   Error = -1
   Enotfound = -3
